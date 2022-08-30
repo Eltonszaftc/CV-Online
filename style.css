@@ -1,0 +1,20 @@
+body{
+    background-color: darkgrey;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.flex-container{
+    display: flexbox;
+    background-color: black;
+    color: white;
+}
+.imagem{
+    height: 50px;
+    width: 50px;
+    background-image: url(blob:https://teams.microsoft.com/14a8ac97-a0c9-4567-8fdc-81e4072cf2d7);
+}
+.container-information{
+    background-color: white;
+    color: blue;
+}
+
