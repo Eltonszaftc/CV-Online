@@ -1,20 +1,46 @@
 body{
+    width: 1000px;
+    align-items: center;
     background-color: darkgrey;
     font-family: 'Times New Roman', Times, serif;
     color: black;
 }
+h1{
+    align-items: center;
+    text-align: center;
+    margin-left: 230px;
+    margin-top: 60px;
+}
+h3{
+    text-align: center;
+    color: black;
+}
+h4{
+    margin-left: 20px;
+}
 .flex-container{
-    display: flexbox;
+    width: 980px;
+    margin: 10px;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.header{
     background-color: black;
     color: white;
 }
-.imagem{
-    height: 50px;
-    width: 50px;
-    background-image: url(blob:https://teams.microsoft.com/14a8ac97-a0c9-4567-8fdc-81e4072cf2d7);
+.container{
+    width: 180px;
+    background-color: dimgray;
 }
 .container-information{
+    width: 810px;
     background-color: white;
     color: blue;
 }
-
+img{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+}
