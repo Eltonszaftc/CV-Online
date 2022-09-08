@@ -1,4 +1,5 @@
 body{
+    /* Configuração geral da página */
     width: 1000px;
     align-items: center;
     background-color: darkgrey;
@@ -6,28 +7,34 @@ body{
     color: black;
 }
 h1{
+    /* Configuração do Nome */
     align-items: center;
     text-align: center;
     margin-left: 230px;
     margin-top: 60px;
 }
 h3{
+    /* Configuração dos Títulos do Blocos*/
     text-align: center;
     color: black;
 }
 h4{
+    /* Configuração da margem de texto dos blocos de informação */
     margin-left: 20px;
 }
 h5{
-    color: green;
+    margin-left: 20px;
+    color:rgb(29, 46, 46);
 }
 .what{
+    /* Configuração do Botão de Whatsapp */
     margin: 0%;
     align-items: baseline;
     width: 30px;
     height: 30px;
 }
 .flex-container{
+    /* Configuração de cada Bloco */
     width: 980px;
     margin: 10px;
     height: 170px;
@@ -36,19 +43,24 @@ h5{
     justify-content: flex-start;
 }
 .header{
+    /* Configuração específica do Bloco Supeiror */
     background-color: black;
     color: white;
 }
 .container{
+    /* Configuração dos Sub-blocos do lado esquerdo */
     width: 180px;
     background-color: dimgray;
 }
 .container-information{
+    /* Configuração dos Sub-blocos do lado direito */
     width: 810px;
+    margin-left: 10px;
     background-color: white;
     color: blue;
 }
 img{
+    /* Configuração da imagem */
     margin: 10px;
     width: 150px;
     height: 150px;
