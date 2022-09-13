@@ -1,4 +1,7 @@
 body{
+    /* Configuração geral da página */
+    width: 1000px;
+    align-items: center;
     background-color: darkgrey;
     font-family: 'Times New Roman', Times, serif;
     color: black;
@@ -24,7 +27,18 @@ h1{
     width: 20%;
 }
 .container-information{
+    /* Configuração dos Sub-blocos do lado direito */
+    width: 810px;
+    margin-left: 10px;
     background-color: white;
     color: rgb(3, 3, 117);
 }
-
+img{
+    /* Configuração da imagem */
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+}
+a{
+    margin-left: 20px;
+}
